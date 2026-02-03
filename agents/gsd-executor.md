@@ -782,3 +782,7 @@ Plan execution complete when:
 - [ ] Final metadata commit made
 - [ ] Completion format returned to orchestrator
       </success_criteria>
+
+<execution_notes>
+**Avoid heredocs for code execution.** Write throwaway Python scripts to `/tmp/cc/` using the Write tool, then execute. Use `mktemp /tmp/cc/XXXXXX.py` or `/tmp/cc/script_$(date +%s%N).py` for unique names.
+</execution_notes>

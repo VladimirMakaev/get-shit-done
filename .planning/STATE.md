@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-02-02)
 Phase: 6 of 6 (Documentation)
 Plan: 1 of 1 in current phase
 Status: Milestone Complete
-Last activity: 2026-02-02 — Completed 06-01-PLAN.md
+Last activity: 2026-02-03 — Completed quick task 002
 
 Progress: [██████████] 100%
 
@@ -78,9 +78,10 @@ None.
 | # | Description | Date | Directory |
 |---|-------------|------|-----------|
 | 001 | Create link_gsd.sh script for development symlinking | 2026-02-02 | [001-link-gsd-script](./quick/001-link-gsd-script/) |
+| 002 | Add heredoc avoidance instruction to GSD personas | 2026-02-03 | [002-add-heredoc-avoidance-instruction-to-gsd-personas](./quick/002-add-heredoc-avoidance-instruction-to-gsd-personas/) |
 
 ## Session Continuity
 
-Last session: 2026-02-02
-Stopped at: Completed quick task 001: link_gsd.sh
+Last session: 2026-02-03
+Stopped at: Completed quick task 002: heredoc avoidance instruction
 Resume file: None
