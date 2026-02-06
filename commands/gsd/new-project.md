@@ -394,9 +394,9 @@ Default to "balanced" if neither config.json nor env var is set.
 
 | Agent | `unlimited` | `quality` | `balanced` | `budget` |
 |-------|-------------|-----------|------------|----------|
-| gsd-project-researcher | opus | opus | sonnet | haiku |
-| gsd-research-synthesizer | opus | sonnet | sonnet | haiku |
-| gsd-roadmapper | opus | opus | sonnet | sonnet |
+| gsd-project-researcher | claude-opus-4-6[1m] | opus | sonnet | haiku |
+| gsd-research-synthesizer | claude-opus-4-6[1m] | sonnet | sonnet | haiku |
+| gsd-roadmapper | claude-opus-4-6[1m] | opus | sonnet | sonnet |
 
 Store resolved models for use in Task calls below.
 

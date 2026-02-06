@@ -27,7 +27,7 @@ Default to "balanced" if neither config.json nor GSD_DEFAULT_MODEL_PROFILE env v
 
 | Agent | `unlimited` | `quality` | `balanced` | `budget` |
 |-------|-------------|-----------|------------|----------|
-| gsd-executor | opus | opus | sonnet | sonnet |
+| gsd-executor | claude-opus-4-6[1m] | opus | sonnet | sonnet |
 
 Store resolved model for use in Task calls below.
 </step>

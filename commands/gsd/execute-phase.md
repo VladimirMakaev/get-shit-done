@@ -54,8 +54,8 @@ Phase: $ARGUMENTS
 
    | Agent | `unlimited` | `quality` | `balanced` | `budget` |
    |-------|-------------|-----------|------------|----------|
-   | gsd-executor | opus | opus | sonnet | sonnet |
-   | gsd-verifier | opus | sonnet | sonnet | haiku |
+   | gsd-executor | claude-opus-4-6[1m] | opus | sonnet | sonnet |
+   | gsd-verifier | claude-opus-4-6[1m] | sonnet | sonnet | haiku |
 
    Store resolved models for use in Task calls below.
 

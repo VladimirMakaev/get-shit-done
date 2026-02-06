@@ -48,7 +48,7 @@ Default to "balanced" if neither config.json nor env var is set.
 
 | Agent | `unlimited` | `quality` | `balanced` | `budget` |
 |-------|-------------|-----------|------------|----------|
-| gsd-phase-researcher | opus | opus | sonnet | haiku |
+| gsd-phase-researcher | claude-opus-4-6[1m] | opus | sonnet | haiku |
 
 Store resolved model for use in Task calls below.
 

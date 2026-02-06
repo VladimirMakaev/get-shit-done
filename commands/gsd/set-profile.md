@@ -14,7 +14,7 @@ Switch the model profile used by GSD agents. This controls which Claude model ea
 <profiles>
 | Profile | Description |
 |---------|-------------|
-| **unlimited** | Opus for all agents without exception |
+| **unlimited** | claude-opus-4-6[1m] for all agents without exception |
 | **quality** | Opus everywhere except read-only verification |
 | **balanced** | Opus for planning, Sonnet for execution/verification (default) |
 | **budget** | Sonnet for writing, Haiku for research/verification |
@@ -113,9 +113,9 @@ Agents will now use:
 Agents will now use:
 | Agent | Model |
 |-------|-------|
-| gsd-planner | opus |
-| gsd-executor | opus |
-| gsd-verifier | opus |
+| gsd-planner | claude-opus-4-6[1m] |
+| gsd-executor | claude-opus-4-6[1m] |
+| gsd-verifier | claude-opus-4-6[1m] |
 | ... | ... |
 ```
 

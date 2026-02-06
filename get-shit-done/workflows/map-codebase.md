@@ -38,7 +38,7 @@ Default to "balanced" if neither config.json nor GSD_DEFAULT_MODEL_PROFILE env v
 
 | Agent | `unlimited` | `quality` | `balanced` | `budget` |
 |-------|-------------|-----------|------------|----------|
-| gsd-codebase-mapper | opus | sonnet | haiku | haiku |
+| gsd-codebase-mapper | claude-opus-4-6[1m] | sonnet | haiku | haiku |
 
 Store resolved model for use in Task calls below.
 </step>
